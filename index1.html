@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product card</title>
+    <style>
+      .gallery {
+  display: flex;
+  gap: 25px;
+  flex-warp: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 260px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 6px 15px lightgrey;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10 px 20px lightgrey;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGACixhkiYSe9fW8liZ5kQtMDsqdmXy33mQ&s">
+        <h2>RGB PC intel core i7 high speed</h2>
+        <p>a high quality pc with the intel core i7 and a rgb PC, thhose looking for a gaming experience</p>
+        <spand class="price">৳27,700.00</spand>
+        <button>buy now</button>
+        <button>add to cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61R-guvNR+L._AC_UF894,1000_QL80_.jpg">
+        <h2>windows 11</h2>
+        <p>a normal windows 11 laptop with intel core i7, those who are looking for a normal and a gaming experience</p>
+        <spand class="price">৳157,900.00</spand>
+        <button>buy now</button>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>
